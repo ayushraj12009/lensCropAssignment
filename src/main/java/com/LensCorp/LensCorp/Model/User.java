@@ -31,4 +31,8 @@ public class User {
     private String password;
 
 
+    public User(String mail, String s) {
+        this.email = mail;
+        this.password = s;
+    }
 }

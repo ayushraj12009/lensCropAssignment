@@ -41,19 +41,5 @@ public class JwtProvider  {
     }
 
 
-//    public static void invalidateToken(String token) {
-//        // Create a list to store invalidated tokens
-//        List<String> invalidatedTokens = new ArrayList<>();
-//
-//        // Check if the token is already in the list of invalidated tokens
-//        if (!invalidatedTokens.contains(token)) {
-//            // Add the token to the list of invalidated tokens
-//            invalidatedTokens.add(token);
-//
-//            // Store the list of invalidated tokens in a database or a file
-//            // For simplicity, let's store it in memory for this example
-//            invalidatedTokensList = invalidatedTokens;
-//        }
-//    }
 
 }

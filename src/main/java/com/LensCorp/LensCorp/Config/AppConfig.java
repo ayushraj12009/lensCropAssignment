@@ -20,7 +20,7 @@ public class AppConfig {
                         management -> management.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(Authorize -> Authorize
                         // Authorizing requests to /api/** to be authenticated
-                        .requestMatchers("/api/**").authenticated()
+                        //.requestMatchers("/api/**").authenticated()
                         // All other requests are permitted
                         .anyRequest().permitAll())
                 .addFilterBefore(new JwtValidator(), BasicAuthenticationFilter.class)
@@ -31,7 +31,6 @@ public class AppConfig {
     }
 
     // Bean to configure password encoder
-
     @Bean
     PasswordEncoder passswordEncoder(){
         return new BCryptPasswordEncoder();
