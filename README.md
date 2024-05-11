@@ -11,4 +11,4 @@
 ![image](https://github.com/ayushraj12009/lensCropAssignment/assets/51042913/228287b0-215a-4c9e-b2c3-9fd76cfc41f0)
 
 ### For ease of testing, I have created the endpoint and JSON for post mapping. Here is the link to it.
-https://p.ip.fi/BrWd
+https://p.ip.fi/dF2R
